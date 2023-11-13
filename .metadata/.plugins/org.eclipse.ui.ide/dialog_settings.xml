@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="true"/>
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="/home/rome/STM32CubeIDE/workspace_1.12.1/RaulRomero_workspace/TP4_1"/>
+			<item value="/home/rome/STM32CubeIDE/workspace_1.12.1/RTOSII_ROMERO/memoria_dinamica_ejemplo_1"/>
+			<item value="/home/rome/STM32CubeIDE/workspace_1.12.1/RTOSII_ROMERO/rtos2_echo"/>
+			<item value="/home/rome/STM32CubeIDE/workspace_1.12.1/RTOSII_ROMERO/sistemas_reactivos_ejemplo_02"/>
+			<item value="/home/rome/STM32CubeIDE/workspace_1.12.1/RTOSII_ROMERO/sistemas_reactivos_ejemplo_01"/>
+			<item value="/home/rome/STM32CubeIDE/workspace_1.12.1/RTOSII_ROMERO/rtos2_template_base"/>
+			<item value="/home/rome/STM32CubeIDE/workspace_1.12.1/RTOSII_ROMERO/rtos2_blinking"/>
+			<item value="/home/rome/STM32CubeIDE/workspace_1.12.1/RTOSII_ROMERO/Ej2_uart"/>
+			<item value="/home/rome/STM32CubeIDE/workspace_1.12.1/RTOSII_ROMERO/UART"/>
+			<item value="/home/rome/STM32CubeIDE/workspace_1.12.1/RTOSII_ROMERO/UART_TwoBoards_ComIT"/>
+			<item value="/home/rome/STM32CubeIDE/workspace_1.12.1/RTOSII_ROMERO/GPIO_EXTI"/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+	</section>
+</section>

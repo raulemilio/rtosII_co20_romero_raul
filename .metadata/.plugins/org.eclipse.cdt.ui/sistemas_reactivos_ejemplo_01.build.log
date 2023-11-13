@@ -1,0 +1,10 @@
+09:31:33 **** Incremental Build of configuration Debug for project sistemas_reactivos_ejemplo_01 ****
+make -j4 all 
+arm-none-eabi-size   sistemas_reactivos_ejemplo_01.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26376	    208	  20624	  47208	   b868	sistemas_reactivos_ejemplo_01.elf
+Finished building: default.size.stdout
+ 
+
+09:31:35 Build Finished. 0 errors, 0 warnings. (took 1s.853ms)
+

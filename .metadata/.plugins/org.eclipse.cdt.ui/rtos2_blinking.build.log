@@ -1,0 +1,10 @@
+09:17:09 **** Incremental Build of configuration Debug for project rtos2_blinking ****
+make -j4 all 
+arm-none-eabi-size   rtos2_blinking.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23012	    208	  20504	  43724	   aacc	rtos2_blinking.elf
+Finished building: default.size.stdout
+ 
+
+09:17:11 Build Finished. 0 errors, 0 warnings. (took 1s.938ms)
+

@@ -1,0 +1,30 @@
+10:48:09 **** Incremental Build of configuration Debug for project sistemas_reactivos_ejemplo_02 ****
+make -j4 all 
+arm-none-eabi-gcc "../src/task/src/task_button.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -c -I"/home/rome/STM32CubeIDE/workspace_1.12.1/RTOSII_ROMERO/sistemas_reactivos_ejemplo_02/src/hal/inc" -I"/home/rome/STM32CubeIDE/workspace_1.12.1/RTOSII_ROMERO/sistemas_reactivos_ejemplo_02/src/lib/inc" -I"/home/rome/STM32CubeIDE/workspace_1.12.1/RTOSII_ROMERO/sistemas_reactivos_ejemplo_02/src/app/inc" -I"/home/rome/STM32CubeIDE/workspace_1.12.1/RTOSII_ROMERO/sistemas_reactivos_ejemplo_02/src/task/inc" -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/task/src/task_button.d" -MT"src/task/src/task_button.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/task/src/task_button.o"
+../src/task/src/task_button.c: In function 'buttonReleased':
+../src/task/src/task_button.c:185:6: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  185 |  if( btn_state = LOCKED)
+      |      ^~~~~~~~~
+../src/task/src/task_button.c: In function 'task_button':
+../src/task/src/task_button.c:230:3: warning: implicit declaration of function 'ao_led_green_init'; did you mean 'ao_led_red_init'? [-Wimplicit-function-declaration]
+  230 |   ao_led_green_init(&ao_led_green, led_green_state_callback_);
+      |   ^~~~~~~~~~~~~~~~~
+      |   ao_led_red_init
+../src/task/src/task_button.c:247:3: warning: implicit declaration of function 'ao_led_green_send'; did you mean 'ao_led_red_send'? [-Wimplicit-function-declaration]
+  247 |   ao_led_green_send(&ao_led_green, btn_state);
+      |   ^~~~~~~~~~~~~~~~~
+      |   ao_led_red_send
+arm-none-eabi-gcc -o "sistemas_reactivos_ejemplo_02.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/rome/STM32CubeIDE/workspace_1.12.1/RTOSII_ROMERO/sistemas_reactivos_ejemplo_02/STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="sistemas_reactivos_ejemplo_02.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: sistemas_reactivos_ejemplo_02.elf
+ 
+arm-none-eabi-size   sistemas_reactivos_ejemplo_02.elf 
+arm-none-eabi-objdump -h -S  sistemas_reactivos_ejemplo_02.elf  > "sistemas_reactivos_ejemplo_02.list"
+   text	   data	    bss	    dec	    hex	filename
+  30600	    208	  20664	  51472	   c910	sistemas_reactivos_ejemplo_02.elf
+Finished building: default.size.stdout
+ 
+Finished building: sistemas_reactivos_ejemplo_02.list
+ 
+
+10:48:13 Build Finished. 0 errors, 3 warnings. (took 4s.130ms)
+
