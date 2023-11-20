@@ -3024,3 +3024,36 @@ java.lang.Exception: File: /home/rome/STM32CubeIDE/workspace_1.12.1/RTOSII_ROMER
 
 !ENTRY org.eclipse.cdt.core 1 0 2023-11-13 10:55:35.428
 !MESSAGE Indexed 'rtosII_co20_romero_raul_TP1_A1' (45 sources, 142 headers) in 11,2 sec: 13.135 declarations; 63.778 references; 9 unresolved inclusions; 447 syntax errors; 1.647 unresolved names (2,1 %)
+!SESSION 2023-11-15 17:56:44.909 -----------------------------------------------
+eclipse.buildId=Version 1.12.1
+java.version=11.0.17
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_AR
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-11-15 17:57:11.587
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-11-15 17:57:11.589
+!MESSAGE Log4j2 initialized with config file /home/rome/STM32CubeIDE/workspace_1.12.1/RTOSII_ROMERO/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-11-15 17:57:23.025
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2023-11-20 08:41:10.732 -----------------------------------------------
+eclipse.buildId=Version 1.12.1
+java.version=11.0.17
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_AR
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-11-20 08:41:32.618
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-11-20 08:41:32.620
+!MESSAGE Log4j2 initialized with config file /home/rome/STM32CubeIDE/workspace_1.12.1/RTOSII_ROMERO/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-11-20 08:41:51.067
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-11-20 08:55:48.830
+!MESSAGE Indexed 'rtosII_co20_romero_raul_TP2_A' (45 sources, 140 headers) in 22,8 sec: 12.987 declarations; 63.541 references; 12 unresolved inclusions; 447 syntax errors; 1.749 unresolved names (2,2 %)
